@@ -75,18 +75,26 @@ import Footer from"../components/footer"
                 }}>
                   <h2> 口袋网盘NAS新体验</h2>
                 </div>
-              <div style = {{
-                background: '#005661',
-                boxShadow: '2px 2px 8px black',
-                backgroundPosition: 'center',
-                height: 48,
-                width: 96,
-                borderRadius: 6,
-                marginTop: 56,
-                fontStyle: 'Noto Sans CJK SC',
-              }}>
-                <h3> 点击购买 </h3>
-              </div>
+                
+                <a href="https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-22137702668.
+                    10.ff2d7fc8jE03Xu&id=601704964279" style={{
+                  textDecorationLine: `none`,color:`white`,
+                  }}> 
+                  <div style = {{
+                    background: '#005661',
+                    boxShadow: '2px 2px 8px black',
+                    backgroundPosition: 'center',
+                    height: 48,
+                    width: 96,
+                    borderRadius: 6,
+                    marginTop: 56,
+                    fontStyle: 'Noto Sans CJK SC',
+                  }}>
+                  <h3>点击购买</h3>
+                  </div>
+                  
+                </a>
+              
             </div>
           </div>
         </Homebkgd>

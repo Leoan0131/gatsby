@@ -103,74 +103,23 @@ const OsPage = () => {
               </div> 
             </div>
           </Blurbkgd>
-          <Darkwood id = "div2-consitution" style={{
-            verticalAlign: `0 auto`, maxHeight: 1280, 
-            fontFamily:`-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-            Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif`,
-          }}>
-            <center style = {{
-               marginTop: 56, marginBottom: 56, height: 72, minWidth: 300, 
-               padding: `1.45rem 0.1rem`, color: `white`, fontSize: `2rem`,}}>
-               口袋网盘的构成
-            </center>
-            
-            <div style = {{ flexDirection: `row-reverse`, display: `flex`, margin:16,
-              justifyContent: `flex-start`, alignItems:`center`,minWidth: 380,maxHeight:32,}}>
-                <img src = {require(`../images/p2/pdicon.png`)} alt="pdicon" 
-                  style = {{maxWidth:32,maxHeight:32,marginLeft:37,marginRight:38,}}></img> 
-                <div style={{color: `white`, fontSize: `1.4rem`,
-                  marginLeft:16,marginRight:16,}}>
-                  (硬件）口袋网盘</div>
-            </div>
-            <div style = {{ flexDirection: `row-reverse`, display: `flex`, margin:16,
-              justifyContent: `flex-start`, alignItems:`center`,minWidth: 380,maxHeight:32,}}>
-                <img src = {require(`../images/p2/serversoft.png`)} alt="server software icon" 
-                  style = {{maxWidth:32,maxHeight:32,marginLeft:32,marginRight:32,}}></img> 
-                <div style={{color: `white`, fontSize: `1.4rem`,
-                  marginLeft:16,marginRight:16,}}>
-                  (服务器端）硬件端软件</div>
-            </div>
-            <div style = {{ flexDirection: `row-reverse`, display: `flex`, margin:16,
-              justifyContent: `flex-start`,alignItems:`center`, minWidth: 380,maxHeight:32,}}>
-                <img src = {require(`../images/p2/devices.png`)} alt="app" 
-                  style = {{maxWidth:32,maxHeight:32,marginLeft:32,marginRight:32,}}></img> 
-                <div style={{color: `white`, fontSize: `1.4rem`,
-                  marginLeft:16,marginRight:16,}}>
-                  手机 | 平板 | 电脑 APP</div>
-            </div>
-            <div style = {{ flexDirection: `row-reverse`, display: `flex`, margin:16,
-              justifyContent: `flex-start`, alignItems:`center`,minWidth: 380,maxHeight:32,}}>
-                <img src = {require(`../images/p2/clser.png`)} alt="cloud services" 
-                  style = {{maxWidth:32,maxHeight:32,marginLeft:32,marginRight:32,}}></img> 
-                <div style={{color: `white`, fontSize: `1.4rem`,
-                  marginLeft:16,marginRight:16}}>
-                  云服务与私有传输协议
-                  
-                  </div>
-                  
-
-            </div>  
-            <div class="line3" style={{marginRight:96, marginTop:16, marginBottom:16,}}/>
-            
-            <div style = {{ flexDirection: `row-reverse`, display: `flex`, margin:8,
-              marginBottom: 96, justifyContent: `flex-start`, alignItems:`center`,minWidth: 380,}}>
-                <img src = {require(`../images/logo.png`)} alt="logo" 
-                  style = {{maxWidth:32,maxHeight:32,marginLeft:32,marginRight:32,}}></img> 
-                <div style={{color: `white`, fontSize: `1.4rem`,
-                  marginLeft:16,marginRight:16,}}>
-                  口袋网盘</div>
-            </div>  
-          </Darkwood>
+          
           <Bluebkgd id = "div3-haredware consitution" style={{
             verticalAlign: `0 auto`, maxHeight: 1280, 
             fontFamily:`-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
             Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif`,
           }}>
             <center style = {{
-               marginTop: 56, marginBottom: 56, height: 72, minWidth: 300, 
+               marginTop: 56, marginBottom: 24, height: 72, minWidth: 300, 
                padding: `1.45rem 0.1rem`, color: `white`, fontSize: `2rem`,}}>
-               硬件核心部分
+              口袋网盘的构成
             </center>
+            <center style = {{
+               marginTop: 0, marginBottom: 56, height: 72, minWidth: 300, 
+               padding: `1.45rem 0.1rem`, color: `lightgrey`, fontSize: `1.8rem`}}>
+               ① 硬件核心部分
+            </center>
+           
           
           <div style={{ flexDirection: `row`, display:`flex`,
                 flexWrap:`wrap`, alignItems:`center`,justifyContent:`space-around`,
@@ -233,8 +182,8 @@ const OsPage = () => {
           }}>
             <center style = {{
                marginTop: 56, marginBottom: 56, height: 72, minWidth: 300, 
-               padding: `1.45rem 0.1rem`, color: `white`, fontSize: `2rem`,}}>
-               服务器端软件
+               padding: `1.45rem 0.1rem`, color: `lightgrey`, fontSize: `1.8rem`,}}>
+               ② 服务器端软件
             </center>
 
             <div style={{ flexDirection: `row`, display:`flex`,
@@ -279,8 +228,8 @@ const OsPage = () => {
           }}>
             <center style = {{
                marginTop: 56, marginBottom: 56, height: 72, minWidth: 300, 
-               padding: `1.45rem 0.1rem`, color: `white`, fontSize: `2rem`,}}>
-               手机 | 平板 | 电脑 APP
+               padding: `1.45rem 0.1rem`, color: `lightgrey`, fontSize: `1.8rem`,}}>
+               ③ 手机 | 平板 | 电脑 APP
             </center>
 
             <div style={{ flexDirection: `row`, display:`flex`,
@@ -319,8 +268,8 @@ const OsPage = () => {
           }}>
             <center style = {{
                marginTop: 56, marginBottom: 56, height: 72, minWidth: 300, 
-               padding: `1.45rem 0.1rem`, color: `white`, fontSize: `2rem`,}}>
-               云服务与私有传输协议
+               padding: `1.45rem 0.1rem`, color: `lightgrey`, fontSize: `1.8rem`,}}>
+               ④ 云服务与私有传输协议
             </center>
 
             <div style={{ flexDirection: `row`, display:`flex`,
@@ -349,7 +298,8 @@ const OsPage = () => {
               <li>基于HTTPS对等的加密私有传输协议实现数据传输、身份认证等业务</li>
             </div>
           </Blurbkgd>
-          <P2home id = "div?-haredware consitution" style={{
+          
+          <Darkwood id = "div2-consitution" style={{
             verticalAlign: `0 auto`, maxHeight: 1280, 
             fontFamily:`-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
             Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif`,
@@ -357,7 +307,60 @@ const OsPage = () => {
             <center style = {{
                marginTop: 56, marginBottom: 56, height: 72, minWidth: 300, 
                padding: `1.45rem 0.1rem`, color: `white`, fontSize: `2rem`,}}>
-               超凡特性 不一样的体验
+               四位一体
+            </center>
+            
+            <div style = {{ flexDirection: `row-reverse`, display: `flex`, margin:16,
+              justifyContent: `flex-start`, alignItems:`center`,minWidth: 380,maxHeight:32,}}>
+                <img src = {require(`../images/p2/pdicon.png`)} alt="pdicon" 
+                  style = {{maxWidth:32,maxHeight:32,marginLeft:37,marginRight:38,}}></img> 
+                <div style={{color: `white`, fontSize: `1.4rem`,
+                  marginLeft:16,marginRight:16,}}>
+                  (硬件）口袋网盘 </div>
+            </div>
+            <div style = {{ flexDirection: `row-reverse`, display: `flex`, margin:16,
+              justifyContent: `flex-start`, alignItems:`center`,minWidth: 380,maxHeight:32,}}>
+                <img src = {require(`../images/p2/serversoft.png`)} alt="server software icon" 
+                  style = {{maxWidth:32,maxHeight:32,marginLeft:32,marginRight:32,}}></img> 
+                <div style={{color: `white`, fontSize: `1.4rem`,
+                  marginLeft:16,marginRight:16,}}>
+                  (服务器端）硬件端软件</div>
+            </div>
+            <div style = {{ flexDirection: `row-reverse`, display: `flex`, margin:16,
+              justifyContent: `flex-start`,alignItems:`center`, minWidth: 380,maxHeight:32,}}>
+                <img src = {require(`../images/p2/devices.png`)} alt="app" 
+                  style = {{maxWidth:32,maxHeight:32,marginLeft:32,marginRight:32,}}></img> 
+                <div style={{color: `white`, fontSize: `1.4rem`,
+                  marginLeft:16,marginRight:16,}}>
+                  手机 | 平板 | 电脑 APP</div>
+            </div>
+            <div style = {{ flexDirection: `row-reverse`, display: `flex`, margin:16,
+              justifyContent: `flex-start`, alignItems:`center`,minWidth: 380,maxHeight:32,}}>
+                <img src = {require(`../images/p2/clser.png`)} alt="cloud services" 
+                  style = {{maxWidth:32,maxHeight:32,marginLeft:32,marginRight:32,}}></img> 
+                <div style={{color: `white`, fontSize: `1.4rem`,
+                  marginLeft:16,marginRight:16}}>
+                  云服务与私有传输协议
+                  
+                  </div>
+                  
+
+            </div>  
+            <div class="line3" style={{marginRight:96, marginTop:16, marginBottom:16,}}/>
+            
+            <div style = {{ flexDirection: `row-reverse`, display: `flex`, margin:8,
+              marginBottom: 96, justifyContent: `flex-start`, alignItems:`center`,minWidth: 380,}}>
+                <img src = {require(`../images/logo.png`)} alt="logo" 
+                  style = {{maxWidth:32,maxHeight:32,marginLeft:32,marginRight:32,}}></img> 
+                <div style={{color: `white`, fontSize: `1.4rem`,
+                  marginLeft:16,marginRight:16,}}>
+                  口袋网盘</div>
+            </div>  
+         
+            <center style = {{
+               marginTop: 56, marginBottom: 56, height: 72, minWidth: 300, 
+               padding: `1.45rem 0.1rem`, color: `white`, fontSize: `2rem`,}}>
+               超凡特性
             </center>
             
             <div style={{ flexDirection: `row`, justifyContent:`space-around`,display:`flex`,
@@ -442,8 +445,20 @@ const OsPage = () => {
                 </div>
               </div>
             </div>
+            </Darkwood>
+          
+          <P2home id = "div2-consitution" style={{
+            verticalAlign: `0 auto`, maxHeight: 1280, 
+            fontFamily:`-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+            Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif`,
+          }}>
+            <center style = {{
+               marginTop: 400, marginBottom: 800, height: 72, minWidth: 300, 
+               padding: `1.45rem 0.1rem`, color: `white`, fontSize: `4rem`,
+               lineHeight: `6rem`}}>
+               口袋网盘 存储新体验
+            </center>
           </P2home>
-
           <Footer id = "div6-footer" style ={{
             verticalAlign: `0 auto`, maxHeight: 600, padding: `1.45rem 1.0875rem`,}}>
               
