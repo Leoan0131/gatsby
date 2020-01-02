@@ -201,7 +201,8 @@ const DownloadPage = () => {
                 sans-serif`}}>
                 <div style={{color:`white`,fontSize:`0.7rem`,
                 }}>©Copyright 2019-2020 Shanghai DingNan IntelliTech Co.,Ltd. All Rights Reserved. 
-                沪ICP备19016098
+                <a href="http://www.beian.miit.gov.cn" style={{color:`white`}}> 
+               沪ICP备19016098 </a> 
                 <br></br>上海钉南智能科技有限公司 版权所有 </div> 
               
                 <img img src = {require(`../images/logo.png`)} alt="logo" 
