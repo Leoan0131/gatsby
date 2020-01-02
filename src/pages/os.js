@@ -36,7 +36,7 @@ const OsPage = () => {
                 <img src={require (`../images/download.png`)} alt="Download icon" width = {18}/>
                 <span>客户端下载</span>
               </a>
-              <a href="/video" class="bm-item" tabIndex="0" style={{
+              <a href="https://space.bilibili.com/437917953" class="bm-item" tabIndex="0" style={{
                 display:`block`,textDecorationLine: `none`,}}>
                 <img src={require (`../images/video.png`)} alt="Video icon"width = {18}/>
                 <span>视频集锦</span>
@@ -494,7 +494,7 @@ const OsPage = () => {
                 <a href="/os" style={{textDecorationLine: `none`,color:`white`,fontSize:`1.2rem`,
                 marginLeft: 16,marginRight: 16,}}>软件介绍</a> 
                 <div> | </div>
-                <a href="/video" style={{textDecorationLine: `none`,color:`white`,fontSize:`1.2rem`,
+                <a href="https://space.bilibili.com/437917953" style={{textDecorationLine: `none`,color:`white`,fontSize:`1.2rem`,
                 marginLeft: 16,}}>视频集锦</a> 
               </div>  
 

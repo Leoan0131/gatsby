@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 import { reveal as Menu } from 'react-burger-menu'
 import '../components/flexbox.css'
 import '../components/bm-burger-menu.css'
+import Darkwood from"../components/darkwood"
 import Footer from"../components/footer"
 
 
@@ -32,7 +33,7 @@ const DownloadPage = () => {
                 <img src={require (`../images/download.png`)} alt="Download icon" width = {18}/>
                 <span>客户端下载</span>
               </a>
-              <a href="/video" class="bm-item" tabIndex="0" style={{
+              <a href="https://space.bilibili.com/437917953" class="bm-item" tabIndex="0" style={{
                 display:`block`,textDecorationLine: `none`,}}>
                 <img src={require (`../images/video.png`)} alt="Video icon"width = {18}/>
                 <span>视频集锦</span>
@@ -40,8 +41,120 @@ const DownloadPage = () => {
             </nav>
           </div>
         </Menu>  
-        <main id="page-wrap">     
-          <Footer id = "div6-footer" style ={{
+        <main id="page-wrap">    
+        <Darkwood id = "div2-consitution" style={{
+            verticalAlign: `0 auto`, maxHeight: 1280, 
+            fontFamily:`-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+            Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif`,
+          }}>
+            <center style = {{
+               marginTop: 120, marginBottom: 56, height: 72, minWidth: 300, 
+               padding: `1.45rem 0.1rem`, color: `white`, fontSize: `2rem`,}}>
+               客户端下载
+            </center>
+            <div style={{ flexDirection: `row`, justifyContent:`space-around`,display:`flex`,
+                alignContent: `space-evenly`,alignItems:`strech`,flexWrap:`wrap`, 
+                maxWidth:800,marginBottom:108,}}> 
+              <div style = {{
+                background: 'lightgrey',boxShadow: '2px 2px 8px black',opacity: `67%`,
+                height: 200,width: 336, borderRadius: 6,margin:16,
+              }}>
+                <div style={{ flexDirection:`row`, display:`flex`,
+                  justifyContent:`flex-start`,alignItems:`center`}}>  
+                  <img src = {require(`../images/p3/win.png`)} alt="windows icon" 
+                    style = {{maxHeight:48,marginTop:16, marginLeft:16,}}></img> 
+                  <div style={{opacity:`87%`,color:`black`,fontSize:`1.5rem`,
+                   marginTop:16, marginLeft:16}}>Windows电脑</div>
+                </div>
+                <div style={{opacity:`100%`,color:`black`,fontSize:`1.1rem`,
+                   marginTop:8, marginLeft:80}}>支持Windows 7及以上版本</div>
+                <div style={{opacity:`100%`,color:`grey`,fontSize:`0.8rem`,
+                   marginTop:8, marginLeft:80}}>更新日期: 2019-11-08</div>
+                <div style={{ flexDirection:`row`, display:`flex`,
+                  justifyContent:`flex-start`,alignItems:`center`}}>  
+                  <img src = {require(`../images/p3/dld.png`)} alt="download icon" 
+                    style = {{maxHeight:36,marginTop:16, marginLeft:22,}}></img> 
+                  <a href="http://www.aidingnan.com/files/KouDaiWangPan-1.0.7-x64.exe"download
+                  style={{opacity:`87%`,color:`black`,fontSize:`1.5rem`,
+                   marginTop:24, marginLeft:22}} >版本: 1.0.7</a>
+                </div>
+              </div>
+              <div style = {{
+                background: 'lightgrey',boxShadow: '2px 2px 8px black',opacity: `67%`,
+                height: 200,width: 336, borderRadius: 6,margin:16,
+              }}>
+                <div style={{ flexDirection:`row`, display:`flex`,
+                  justifyContent:`flex-start`,alignItems:`center`}}>  
+                  <img src = {require(`../images/p3/mac.png`)} alt="mac icon" 
+                    style = {{maxHeight:48,marginTop:16, marginLeft:16,}}></img> 
+                  <a 
+                  style={{opacity:`87%`,color:`black`,fontSize:`1.5rem`,
+                   marginTop:16, marginLeft:16}}>Mac电脑</a>
+                </div>
+                <div style={{opacity:`100%`,color:`black`,fontSize:`1.1rem`,
+                   marginTop:8, marginLeft:80}}>支持Mac 10.10及以上版本</div>
+                <div style={{opacity:`100%`,color:`grey`,fontSize:`0.8rem`,
+                   marginTop:8, marginLeft:80}}>更新日期: 2019-11-08</div>
+                <div style={{ flexDirection:`row`, display:`flex`,
+                  justifyContent:`flex-start`,alignItems:`center`}}>  
+                  <img src = {require(`../images/p3/dld.png`)} alt="download icon" 
+                    style = {{maxHeight:36,marginTop:16, marginLeft:22,}}></img> 
+                  <a href="http://www.aidingnan.com/files/KouDaiWangPan-1.0.7.dmg" 
+                  style={{opacity:`87%`,color:`black`,fontSize:`1.5rem`,
+                   marginTop:24, marginLeft:22}}>版本: 1.0.7</a>
+                </div>
+              </div>
+              <div style = {{
+                background: 'lightgrey',boxShadow: '2px 2px 8px black',opacity: `67%`,
+                height: 200,width: 336, borderRadius: 6,margin:16,
+              }}>
+                <div style={{ flexDirection:`row`, display:`flex`,
+                  justifyContent:`flex-start`,alignItems:`center`}}>  
+                  <img src = {require(`../images/p3/android.png`)} alt="android icon" 
+                    style = {{maxHeight:48,marginTop:16, marginLeft:16,}}></img> 
+                  <div style={{opacity:`87%`,color:`black`,fontSize:`1.5rem`,
+                   marginTop:16, marginLeft:16}}>安卓手机</div>
+                </div>
+                <div style={{opacity:`100%`,color:`black`,fontSize:`1.1rem`,
+                   marginTop:8, marginLeft:80}}>支持Android 4.4及以上版本</div>
+                <div style={{opacity:`100%`,color:`grey`,fontSize:`0.8rem`,
+                   marginTop:8, marginLeft:80}}>更新日期: 2019-11-08</div>
+                <div style={{ flexDirection:`row`, display:`flex`,
+                  justifyContent:`flex-start`,alignItems:`center`}}>  
+                  <img src = {require(`../images/p3/dld.png`)} alt="download icon" 
+                    style = {{maxHeight:36,marginTop:16, marginLeft:22,}}></img> 
+                  <a href="http://www.aidingnan.com/files/KouDaiWangPan-1.8.8.apk" 
+                   style={{opacity:`87%`,color:`black`,fontSize:`1.5rem`,
+                   marginTop:24, marginLeft:22}}>版本: 1.8.8</a>
+                </div>
+              </div>
+              <div style = {{
+                background: 'lightgrey',boxShadow: '2px 2px 8px black',opacity: `67%`,
+                height: 200,width: 336, borderRadius: 6,margin:16,
+              }}>
+                <div style={{ flexDirection:`row`, display:`flex`,
+                  justifyContent:`flex-start`,alignItems:`center`}}>  
+                  <img src = {require(`../images/p3/ios.png`)} alt="iPhone icon" 
+                    style = {{maxHeight:48,marginTop:16, marginLeft:16,}}></img> 
+                  <div style={{opacity:`87%`,color:`black`,fontSize:`1.5rem`,
+                   marginTop:16, marginLeft:16}}>苹果手机</div>
+                </div>
+                <div style={{opacity:`100%`,color:`black`,fontSize:`1.1rem`,
+                   marginTop:8, marginLeft:80}}>支持iOS 8及以上版本</div>
+                <div style={{opacity:`100%`,color:`grey`,fontSize:`0.8rem`,
+                   marginTop:8, marginLeft:80}}>更新日期: 2019-11-08</div>
+                <div style={{ flexDirection:`row`, display:`flex`,
+                  justifyContent:`flex-start`,alignItems:`center`}}>  
+                  <img src = {require(`../images/p3/dld.png`)} alt="download icon" 
+                    style = {{maxHeight:36,marginTop:16, marginLeft:22,}}></img> 
+                  <a href="https://apps.apple.com/cn/app/口袋网盘/id1465080320" 
+                   style={{opacity:`87%`,color:`black`,fontSize:`1.5rem`,
+                   marginTop:24, marginLeft:22}}>版本: 1.8.8</a>
+                </div>
+              </div>             
+            </div>
+    </Darkwood>
+        <Footer id = "div6-footer" style ={{
             verticalAlign: `0 auto`, maxHeight: 600, padding: `1.45rem 1.0875rem`,}}>
               
               <div id="follow us" class="flex-footer" style = {{
@@ -76,7 +189,7 @@ const DownloadPage = () => {
                 <a href="/os" style={{textDecorationLine: `none`,color:`white`,fontSize:`1.2rem`,
                 marginLeft: 16,marginRight: 16,}}>软件介绍</a> 
                 <div> | </div>
-                <a href="/video" style={{textDecorationLine: `none`,color:`white`,fontSize:`1.2rem`,
+                <a href="https://space.bilibili.com/437917953" style={{textDecorationLine: `none`,color:`white`,fontSize:`1.2rem`,
                 marginLeft: 16,}}>视频集锦</a> 
               </div>  
 
@@ -95,7 +208,6 @@ const DownloadPage = () => {
                 style = {{maxWidth: 32,}}></img> 
               </div>    
           </Footer>
-          <p>this page is for Clients-Downloads</p>
         </main>
     </div>
   </div>
