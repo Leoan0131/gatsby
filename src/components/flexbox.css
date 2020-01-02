@@ -1,4 +1,12 @@
 
+.v-align{
+  text-align: center;
+  height: 96px;
+  line-height: 96px;
+  font-size: 2rem;
+}
+
+
 .flex-menu {
     flex-direction: row;
     display: inline-flex;
@@ -51,7 +59,7 @@ div2: remote access css
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     line-height: 1.35rem;
     font-size: 1.2rem;
-    opacity: 54%;
+    color: lightgrey;
   }
 
   .line {

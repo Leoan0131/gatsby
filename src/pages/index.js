@@ -53,125 +53,65 @@ import Footer from"../components/footer"
         </div>
       </Menu>  
       <main id="page-wrap">
-        <Homebkgd id="div1" style = {{maxHeight: 1080, padding: `1.45rem 1.0875rem`,}}>
+        <Homebkgd id="div1" style = {{padding: `1.45rem 1.0875rem`,}}>
            <div style = {{
-            marginTop: 232,
-            marginBottom: 96,
-            height: 400,
-            minWidth: 320,
-            padding: `1.45rem 1.0875rem`,
+            marginTop: 232,marginBottom: 64,height: 400,
+            minWidth: 320,padding: `1.45rem 1.0875rem`,
           }}>
-            <div style = {{ 
-            margin: 16, 
-            maxWith: 600,
-            color: 'white',
+            <div class = "flex-container" style = {{ 
+            margin: 16, maxWith: 600,color: 'white',
             }}>
-              <div class = "flex-container">
-                <div>数据存在家里</div>
-                <div>出门在外也能调用</div>
-              </div>
-                <div style = {{
-                  marginTop: 32,
-                }}>
-                  <h2> 口袋网盘NAS新体验</h2>
-                </div>
-                
-                <a href="https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-22137702668.
-                    10.ff2d7fc8jE03Xu&id=601704964279" style={{
-                  textDecorationLine: `none`,color:`white`,
-                  }}> 
-                  <div style = {{
-                    background: '#005661',
-                    boxShadow: '2px 2px 8px black',
-                    backgroundPosition: 'center',
-                    height: 48,
-                    width: 96,
-                    borderRadius: 6,
-                    marginTop: 56,
-                    fontStyle: 'Noto Sans CJK SC',
-                  }}>
-                  <h3>点击购买</h3>
-                  </div>
-                  
-                </a>
-              
+              <div>数据存在家里</div>
+              <div>出门在外也能调用</div>
             </div>
+            <p style={{ color:`lightgrey`,fontSize:`1.6rem`,marginTop: 32, marginLeft:16
+             }}> 口袋网盘NAS新体验</p>
+              
+            <button style = {{
+              background: '#005661', boxShadow: '2px 2px 8px black', backgroundPosition: 'center',
+              height: 48,borderRadius: 6,marginTop: 56,marginLeft:16,border:`none`}}>
+              <a href="https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-22137702668.
+                    10.ff2d7fc8jE03Xu&id=601704964279" style={{
+                  textDecorationLine: `none`,color:`white`, 
+                  }}>  点击购买 
+              </a>
+            </button>
           </div>
         </Homebkgd>
         <Blurbkgd id = "div2" style = {{
          verticalAlign: `0 auto`,
          maxHeight: 1280,
          padding: `1.45rem 1.0875rem`,
-         //background: '#01579b',
        }}>
-          <div style = {{
-          marginTop: 56,
-          marginBottom: 72,
-          height: 72,
-          minWidth: 320,
-          padding: `1.45rem 1.0875rem`,
-          //background: '#4f83cc',
-          color: `white`,
-          fontSize: `2rem`,
+          <center style = {{marginTop: 56, marginBottom: 72, minWidth: 320, 
+          padding: `1.45rem 1.0875rem`, color: `white`,fontSize: `2rem`,
           fontFamily:`-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
           Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif`
-          }}>
-            <center>多端并用 云盘体验</center>
-          </div>
+          }}>多端并用 云盘体验</center>
            <center> <img src = {require (`../images/appic.png`)} alt="all platforms"
            style = {{
-              marginTop: 56,
-              maxHeight: 400,
-              minWidth: 320,
-              padding: `1.45rem 1.0875rem`,
-              //background: '#4f83cc',
-              }}>
-            </img></center>
-            <center> <img src = {require (`../images/apcli.png`)} alt="all clients"style = {{
-              marginBottom: 56,
-              maxHeight: 120,
-              minWidth: 320,
-              padding: `1.45rem 1.0875rem`,
-              //background: '#4f83cc',
-              }}>
-            </img></center>
+              maxHeight: 400, minWidth: 320,padding: `1.45rem 1.0875rem`,
+          }}></img></center>
+          <center> <img src = {require (`../images/apcli.png`)} alt="all clients"style = {{
+              marginBottom: 56,maxHeight: 120,minWidth: 320,
+              padding: `1.45rem 1.0875rem`,}}>
+          </img></center>
     </Blurbkgd>
-        <Bluebkgd id = "div3" style = {{
-         verticalAlign: `0 auto`,
-         maxHeight: 1280,
-         //maxWidth: 1920,
-         padding: `1.45rem 1.0875rem`,
-         //background: '#4a148c',
-       }}>
-          <div style = {{
-          marginTop: 56,
-          marginBottom: 16,
-          height: 72,
-          minWidth: 320,
-          padding: `1.45rem 0.1rem`,
-          //background: '#4f83cc',
-          color: `white`,
-          fontSize: `2rem`,
-          fontFamily:`-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-          Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif`
-          }}>
-            <center>远程访问 数据随身带</center>
+        <Bluebkgd id = "div3" style = {{overflow:`auto`, padding: `1.45rem 1.0875rem`,}}> 
+          <div style={{height:32}}></div>
+          <center class = "v-align" style={{minWidth: 320, color:`white`,
+            fontFamily:`-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+              Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif` }}
+          >远程访问 数据随身带</center>
+          
+          <div class = "flex-box">
+            <img src = {require(`../images/remote.png`)} alt="fly icon" style = {{
+              maxWidth: 48, marginRight: 16,}}></img>
+            <div>无需设置，自带远程访问 
+              <br></br> 远程访问与局域网自动切换
+            </div>
           </div>
-          <div style = {{ 
-           marginBottom: 40,
-           maxWith: 600,
-           color: 'white',
-           }}>
-              <div class = "flex-box">
-                <img src = {require(`../images/remote.png`)} alt="fly icon" style = {{
-                  maxWidth: 48,
-                  marginRight: 16,
-                }}></img>
-                <div>无需设置，自带远程访问 
-                  <br></br> 远程访问与局域网自动切换
-                </div>
-              </div>
-           </div> 
+           
            <center> <img src = {require (`../images/wldmap.png`)} alt="world map" style = {{
               marginTop: 56,
               marginBottom: 56,
@@ -435,7 +375,7 @@ import Footer from"../components/footer"
           verticalAlign: `0 auto`, maxHeight: 600, padding: `1.45rem 1.0875rem`,}}>
             
             <div id="follow us" class="flex-footer" style = {{
-              marginTop:32,maxWidth: 600, padding: `1rem`, 
+              paddingTop:32,maxWidth: 600, padding: `1rem`, 
               color: `white`,fontSize: `1.35rem`,fontFamily:`-apple-system, BlinkMacSystemFont, 
               Segoe UI, Roboto, Oxygen,Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, 
               sans-serif`}}>
@@ -491,19 +431,5 @@ import Footer from"../components/footer"
  </div>
   )
 }
-
-
-
-/*
-<Layout>
-    
-    <SEO title="口袋网盘" />
-    <div style={{ maxWidth: `1920px`, marginBottom: `0px` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-*/
-
 
 export default IndexPage

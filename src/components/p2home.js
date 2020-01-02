@@ -51,6 +51,7 @@ const StyledInnerWrapper = styled.div`
 
 const StyledMultiBackground = styled(BackgroundSection)`
   width: 100%;
+  height: 100%;
   min-height: 100vh;
   /* You should set a background-size as the default value is "cover"! */
   background-size: auto;

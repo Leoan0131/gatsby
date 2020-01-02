@@ -225,6 +225,7 @@ const OsPage = () => {
             verticalAlign: `0 auto`, maxHeight: 1280, 
             fontFamily:`-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
             Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif`,
+            flexDirection: `column`, display:`flex`, alignItems:`center`,
           }}>
             <center style = {{
                marginTop: 56, marginBottom: 56, height: 72, minWidth: 300, 
@@ -257,9 +258,6 @@ const OsPage = () => {
               <li>基于Flutter与Electron跨平台框架开发全操作系统客户端</li>
               <li>支持Windows | Mac | Linux | Android | iOS 操作系统  </li>
             </div>
-
-
-
           </Bluebkgd>
           <Blurbkgd id = "div6-cloud services" style={{
             verticalAlign: `0 auto`, maxHeight: 1280, 
