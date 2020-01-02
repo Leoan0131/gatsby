@@ -174,7 +174,6 @@ flex-feature2 - row
   width: 600px;
   height: 2px;
   border-bottom: 1px solid whitesmoke;
-  opacity: 54%;
   position: relative;
   margin-left: 1rem;
 }
@@ -184,7 +183,6 @@ flex-feature2 - row
   width: 400px;
   height: 2px;
   border-bottom: 1px solid whitesmoke;
-  opacity: 54%;
   position: relative;
   margin-left: 1rem;
 }
