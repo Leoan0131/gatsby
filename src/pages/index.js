@@ -88,11 +88,11 @@ import Footer from"../components/footer"
           fontFamily:`-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
           Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif`
           }}>多端并用 云盘体验</center>
-           <center> <img src = {require (`../images/appic.png`)} alt="all platforms"
+           <center> <img src = {require (`../images/appic.png`)} alt="口袋网盘全客户端体验"
            style = {{
               maxHeight: 400, minWidth: 320,padding: `1.45rem 1.0875rem`,
           }}></img></center>
-          <center> <img src = {require (`../images/apcli.png`)} alt="all clients"style = {{
+          <center> <img src = {require (`../images/apcli.png`)} alt="全客户端的口袋网盘"style = {{
               marginBottom: 56,maxHeight: 120,minWidth: 320,
               padding: `1.45rem 1.0875rem`,}}>
           </img></center>
@@ -112,7 +112,8 @@ import Footer from"../components/footer"
             </div>
           </div>
            
-           <center> <img src = {require (`../images/wldmap.png`)} alt="world map" style = {{
+           <center> <img src = {require (`../images/wldmap.png`)} alt="口袋网盘可以随时随地访问"
+            style = {{
               marginTop: 56,
               marginBottom: 56,
               maxHeight: 480,
@@ -151,13 +152,11 @@ import Footer from"../components/footer"
                 //background: '#b4a446',
             }}>
               <div>
-                <center> <img src = {require (`../images/iphone.png`)} alt="iPhone" style = {{
+                <center> <img src = {require (`../images/iphone.png`)} alt="口袋网盘手机端展示" 
+                style = {{
                   marginTop: 16,
-                  //marginBottom: 32,
-                  //marginLeft: 32,
                   maxHeight: 480,
                   padding: `1.15rem 1.0875rem`,
-                  //background: '#4f83cc',
                   }}>
                   </img></center>
               </div>
@@ -178,7 +177,8 @@ import Footer from"../components/footer"
                   <div class = "line" ></div>
 
                   <div class = "flex-intro">
-                    <img src = {require(`../images/autobackup.png`)} alt="backup icon" style = {{
+                    <img src = {require(`../images/autobackup.png`)} alt="口袋网盘自动备份功能" 
+                    style = {{
                       maxWidth: 48,
                       marginRight: 16,
                     }}></img>
@@ -195,7 +195,8 @@ import Footer from"../components/footer"
                       </div>
                   </div>
                   <div class = "flex-intro">
-                    <img src = {require(`../images/search.png`)} alt="serach icon" style = {{
+                    <img src = {require(`../images/search.png`)} alt="口袋网盘全盘搜索" 
+                    style = {{
                       maxWidth: 48,
                       marginRight: 16,
                     }}></img>
@@ -215,7 +216,8 @@ import Footer from"../components/footer"
                       </div>
                   </div>
                   <div class = "flex-intro">
-                    <img src = {require(`../images/upload.png`)} alt="upload icon" style = {{
+                    <img src = {require(`../images/upload.png`)} alt="口袋网盘多选上传" 
+                    style = {{
                       maxWidth: 48,
                       marginRight: 16,
                     }}></img>
@@ -232,7 +234,8 @@ import Footer from"../components/footer"
                       </div>
                   </div>
                   <div class = "flex-intro">
-                    <img src = {require(`../images/wechat.png`)} alt="wechat icon" style = {{
+                    <img src = {require(`../images/wechat.png`)} alt="口袋网盘微信互传功能" 
+                    style = {{
                       maxWidth: 48,
                       marginRight: 16,
                     }}></img>
@@ -268,13 +271,12 @@ import Footer from"../components/footer"
                 //background: '#b4a446',
             }}>
               <div>
-                <center> <img src = {require (`../images/pd.png`)} alt="PocketDrive Product" style = {{
+                <center> <img src = {require (`../images/pd.png`)} alt="安密环保的口袋网盘" 
+                style = {{
                   marginTop: 16,
-                  //marginBottom: 32,
                   marginLeft: 48,
                   maxHeight: 480,
                   padding: `1.15rem 1.0875rem`,
-                  //background: '#4f83cc',
                   }}>
                   </img></center>
               </div>
@@ -295,7 +297,7 @@ import Footer from"../components/footer"
                   <div class = "line" ></div>
 
                   <div class = "flex-intro">
-                    <img src = {require(`../images/security.png`)} alt="secruity icon " style = {{
+                    <img src = {require(`../images/security.png`)} alt="口袋网盘安全加密" style = {{
                       maxWidth: 48,
                       marginRight: 16,
                     }}></img>
@@ -313,7 +315,7 @@ import Footer from"../components/footer"
                       </div>
                   </div>
                   <div class = "flex-intro">
-                    <img src = {require(`../images/performance.png`)} alt="meter icon" style = {{
+                    <img src = {require(`../images/performance.png`)} alt="口袋网盘性能强大" style = {{
                       maxWidth: 48,
                       marginRight: 16,
                     }}></img>
@@ -333,7 +335,7 @@ import Footer from"../components/footer"
                       </div>
                   </div>
                   <div class = "flex-intro">
-                    <img src = {require(`../images/wireless.png`)} alt="wifi icon" style = {{
+                    <img src = {require(`../images/wireless.png`)} alt="口袋网盘无线链接" style = {{
                       maxWidth: 48,
                       marginRight: 16,
                     }}></img>
@@ -350,7 +352,7 @@ import Footer from"../components/footer"
                       </div>
                   </div>
                   <div class = "flex-intro">
-                    <img src = {require(`../images/eco.png`)} alt="eco icon" style = {{
+                    <img src = {require(`../images/eco.png`)} alt="口袋网盘环保达人" style = {{
                       maxWidth: 48,
                       marginRight: 16,
                     }}></img>
@@ -420,7 +422,7 @@ import Footer from"../components/footer"
               }}>©Copyright 2019-2020 Shanghai DingNan IntelliTech Co.,Ltd. All Rights Reserved. 
               <a href="http://www.beian.miit.gov.cn" style={{color:`white`}}> 
                沪ICP备19016098 </a> 
-               <br></br>上海钉南智能科技有限公司 版权所有 </div> 
+               <br></br>Tel:173-1656-0021 上海钉南智能科技有限公司 版权所有 </div> 
              
                <img img src = {require(`../images/logo.png`)} alt="logo" 
                style = {{maxWidth: 32,}}></img> 

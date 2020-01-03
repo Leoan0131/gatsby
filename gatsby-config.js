@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `网盘新体验`,
-    description: `数据存在家里，出门在外也能调用`,
-    author: `@leoan`,
+    title: `网盘新体验，个人家用无线NAS`,
+    description: `数据存在家里，出门在外也能调用。实现手机照片/视频的自动备份，电脑自动备份，
+          文件搜索与文件管理，实现与第三方应用的文件交互。Wi-Fi连接使用，内置固态存储。安静无噪音，低功耗。`,
+    author: `口袋网盘`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

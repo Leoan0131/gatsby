@@ -61,7 +61,7 @@ const OsPage = () => {
                 <div style={{marginRight:8,marginLeft:8,}}>口袋网盘与路由器成功连接</div>
                 <div style={{marginRight:8,marginLeft:8,}}>使用官方APP玩转口袋网盘</div>
             </div>
-            <img src = {require(`../images/p2/howitworks.png`)} alt="howitworks" 
+            <img src = {require(`../images/p2/howitworks.png`)} alt="口袋网盘的正确打开方式" 
               style = {{minHeight: 168, padding: `2rem`,marginBottom:56,marginTop:32,}}>
             </img>
             
@@ -506,7 +506,7 @@ const OsPage = () => {
                 }}>©Copyright 2019-2020 Shanghai DingNan IntelliTech Co.,Ltd. All Rights Reserved. 
                 <a href="http://www.beian.miit.gov.cn" style={{color:`white`}}> 
                沪ICP备19016098 </a> 
-                <br></br>上海钉南智能科技有限公司 版权所有 </div> 
+                <br></br>Tel:173-1656-0021 上海钉南智能科技有限公司 版权所有 </div> 
               
                 <img img src = {require(`../images/logo.png`)} alt="logo" 
                 style = {{maxWidth: 32,}}></img> 
